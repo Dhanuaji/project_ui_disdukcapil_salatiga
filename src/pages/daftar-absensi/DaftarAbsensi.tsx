@@ -5,6 +5,7 @@ import { listPegawai } from "../../services/AbsensiService";
 
 const DaftarAbsensi = () => {
     
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const [pegawai, setPegawai] = useState<any[]>([]);
 
     useEffect(() => {
